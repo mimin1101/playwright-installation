@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jan 31 15:41:00 ICT 2024","Wed Jan 31 15:41:00 ICT 2024","288","chromium","Get_Method.spec.js","","","","should be abel to send a GET method request",""
+"passed","Wed Jan 31 15:41:00 ICT 2024","Wed Jan 31 15:41:02 ICT 2024","1945","chromium","Post_Method.spec.js","","","","should be able to create a new POST",""
+"passed","Wed Jan 31 15:41:00 ICT 2024","Wed Jan 31 15:41:01 ICT 2024","1027","chromium","Delete_Method.spec.js","","","","should be able to Delete data",""
+"passed","Wed Jan 31 15:41:00 ICT 2024","Wed Jan 31 15:41:01 ICT 2024","832","chromium","Put_Method.spec.js","","","","should be able to UPDATE a new data",""
+"passed","Wed Jan 31 15:41:00 ICT 2024","Wed Jan 31 15:41:03 ICT 2024","2861","chromium","Chaining_Request.spec.js","","","","Should be able to perform CRUD on post type",""
