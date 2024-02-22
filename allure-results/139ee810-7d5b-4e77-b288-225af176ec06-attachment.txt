@@ -1,0 +1,214 @@
+bearer 2zgW0JmlHjwiYT_pzbo0orHDd2QhdNuHoBtCfGmnv40
+{
+  data: [
+    {
+      id: '63657',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62352',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62350',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62348',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62346',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62344',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62342',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62340',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62338',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62325',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '63682',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '63680',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '63678',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '63676',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '63674',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '63672',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '63670',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    }
+  ],
+  included: [
+    {
+      id: '2442',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '2638',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '2649',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '2642',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '2640',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '2639',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '2458',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '2470',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    }
+  ],
+  meta: { page: 1, total_pages: 1, total_count: 17 }
+}
+63657
+{
+  id: 2451,
+  email: 'minh.ha+o16@referreach.com',
+  title: 'jb',
+  first_name: 'o',
+  last_name: '16',
+  pitch: 'hkk',
+  created_at: '2023-06-30T08:15:30.923Z',
+  updated_at: '2024-02-22T10:45:00.830Z',
+  onboard_completed: true,
+  confirmed_at: '2023-06-30T08:15:45.920Z',
+  in_app_status: 'onboard_completed',
+  avatar_metadata: { avatar_url: null, avatar_lat: null, avatar_lng: null },
+  background_photo_url: 'https://dev-api-ls.referreach.com/assets/background_photos/bg_7-928a2c40e0dd81f54a47b837085c799d9928bffef5184a1679e210ebb4360c99.jpg',
+  portfolio_url: '',
+  pronoun_type: 'She/Her',
+  pronoun_value: 'She/Her',
+  status: 'active',
+  company: 'gji',
+  provider: null,
+  uid: null,
+  linkedin_data: null,
+  pubnub_uuid: 'e130fc4e-35ca-4269-94c9-75b2df346c65',
+  code: 'EE0BD2BCC8',
+  linkedin_public_url: null,
+  total_connections: 0,
+  total_communities: 0,
+  subscription_type: 'free',
+  total_published_asks: 0,
+  phone_number: '+84 0985258960',
+  blue_tick: false,
+  verify_data_status: 'unverified',
+  onboarding_steps: null,
+  show_vcard: true,
+  chat_with_stranger: true,
+  strength_template: 'This is story about your pitch is important to your business.',
+  eligible_for_trial_subscription: false,
+  self_industries: [
+    { id: 631, name: 'Media Production' },
+    { id: 630, name: 'Medical Device' },
+    { id: 639, name: 'Medical Practice' },
+    { id: 353, name: 'music' },
+    { id: 640, name: 'Museums & Institutions' }
+  ],
+  partner_industries: [ { id: 171, name: 'Automotive' }, { id: 175, name: 'Banking' } ],
+  sell_industries: [
+    { id: 264, name: 'Graphic Design' },
+    { id: 149, name: 'Health' },
+    { id: 150, name: 'Wellness & Fitness' },
+    { id: 618, name: 'Higher Education' },
+    { id: 638, name: 'Hospital & Health Care' },
+    { id: 143, name: 'Airlines/Aviation' }
+  ],
+  user_achievements: []
+}

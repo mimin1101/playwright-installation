@@ -1,11 +1,11 @@
 const {expect} = require("@playwright/test");
-const {test, request} = require ('@playwright/test')
+const {test} = require ('@playwright/test')
 
 test("credit system", async ({request})=>{
 const URL = ('https://api-dev.referreach.com/v1/auth/sign_in');
 const postContent = {
     user: {
-        email: "minh.ha+o16@referreach.com",
+        email: "minh.ha+o10@referreach.com",
         password: "Referreach1!"
     }
 }
@@ -55,6 +55,13 @@ const options = {
         data: content
     }
     const postRes = await request.post(urlPost,postOptions);
-    expect(postRes.status()).toBe(201)
+    const postResponseBody = await postRes.json();
+    console.log(postResponseBody);
+    if(postRes.status()===201){
+        expect(postResponseBody.id).toBeDefined();
+    }
+    else{
+        expect(postResponseBody.error).toBeDefined();
+    }
 
 });
