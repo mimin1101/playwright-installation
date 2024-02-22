@@ -5,7 +5,7 @@ test("credit system", async ({request})=>{
 const URL = ('https://api-dev.referreach.com/v1/auth/sign_in');
 const postContent = {
     user: {
-        email: "minh.ha+o10@referreach.com",
+        email: "minh.ha+o16@referreach.com",
         password: "Referreach1!"
     }
 }
@@ -24,6 +24,7 @@ const options = {
     const auth = `${token_type} ${access_token}`
     console.log(auth)
 
+
     //get profile match
     const urlGet = ('https://api-dev.referreach.com/api/v1/profile_matches?first_id=3')
     const getOptions = {
@@ -35,6 +36,25 @@ const options = {
     const getRes = await request.get(urlGet,getOptions);
     const getJsonBody = await getRes.json();
     console.log(getJsonBody)
+    const lockProfile = getJsonBody.data[0].id
+    console.log(lockProfile)
     expect(getRes.status()).toBe(200)
+
+    // Unlock profile (post)
+    const urlPost = ('https://api-dev.referreach.com/api/v1/credit_histories/unlock_profile')
+    const content ={
+        "metadata": {
+            "profile_match_id": lockProfile
+        }
+    }
+    const postOptions ={
+        headers: {
+            'Accept': '*/*',
+            'Authorization': auth
+        },
+        data: content
+    }
+    const postRes = await request.post(urlPost,postOptions);
+    expect(postRes.status()).toBe(201)
 
 });
