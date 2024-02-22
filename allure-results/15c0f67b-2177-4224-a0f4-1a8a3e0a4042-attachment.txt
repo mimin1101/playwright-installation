@@ -1,0 +1,13 @@
+BlCjRrkYZhXBBM3HKeuxl_0iOcIvqZQlIQE8bxe09zs
+bearer+BlCjRrkYZhXBBM3HKeuxl_0iOcIvqZQlIQE8bxe09zs
+APIResponse: 401 Unauthorized
+  Server: nginx/1.14.0 (Ubuntu)
+  Date: Thu, 22 Feb 2024 08:53:17 GMT
+  Content-Type: application/json; charset=utf-8
+  Transfer-Encoding: chunked
+  Connection: close
+  Cache-Control: no-store, no-cache
+  WWW-Authenticate: Bearer realm="Doorkeeper", error="invalid_token", error_description="The access token is invalid"
+  X-Request-Id: c37befa3-8b37-4cb1-80bf-a3508c7ee63a
+  X-Runtime: 0.012410
+  vary: Origin
