@@ -5,7 +5,7 @@ test("credit system", async ({request})=>{
 const URL = ('https://api-dev.referreach.com/v1/auth/sign_in');
 const postContent = {
     user: {
-        email: "minh.ha+o10@referreach.com",
+        email: "minh.ha+o16@referreach.com",
         password: "Referreach1!"
     }
 }
@@ -23,7 +23,19 @@ const options = {
     const {access_token, token_type} = responseBody.token_info
     const auth = `${token_type} ${access_token}`
     console.log(auth)
-
+    //get balance
+    const urlGetBalance = ('https://api-dev.referreach.com/api/v1/users/credit_info')
+    const getBalanceOptions = {
+        headers: {
+            'Accept': '*/*',
+            'Authorization': auth
+        }
+    };
+    const getBalanceRes = await request.get(urlGetBalance,getBalanceOptions)
+    const getBalanceJsonBody = await getBalanceRes.json();
+    expect(getBalanceRes.status()).toBe(200);
+    const balance = getBalanceJsonBody.balance
+    console.log(balance)
 
     //get profile match
     const urlGet = ('https://api-dev.referreach.com/api/v1/profile_matches?first_id=3')

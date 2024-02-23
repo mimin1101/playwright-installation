@@ -1,0 +1,159 @@
+bearer wgTatBALrPsp69PcBIbPzXR5zhgrQLslHX_5IT4HofA
+{
+  trail_point_given: 10,
+  premium_point_given: 100,
+  unlock_profile_credit_point: 10,
+  balance: 0
+}
+{
+  data: [
+    {
+      id: '134910',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '65036',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '63654',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '63652',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '63650',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '63648',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '63646',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '63644',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '63642',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62322',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62320',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62318',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62316',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62314',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '62312',
+      type: 'profile_matches',
+      attributes: [Object],
+      relationships: [Object]
+    }
+  ],
+  included: [
+    {
+      id: '1128',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '2597',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '2596',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '2509',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '2477',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '2476',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    },
+    {
+      id: '2436',
+      type: 'users',
+      attributes: [Object],
+      relationships: [Object]
+    }
+  ],
+  meta: { page: 1, total_pages: 1, total_count: 15 }
+}
+134910
+{
+  json_api: { version: '1.0' },
+  success: false,
+  message: 'Your credit point is insufficient to unlock',
+  error: 'Your credit point is insufficient to unlock',
+  errors: [
+    {
+      source: [Object],
+      detail: 'Your credit point is insufficient to unlock'
+    }
+  ]
+}
